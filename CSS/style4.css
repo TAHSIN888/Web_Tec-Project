@@ -1,0 +1,27 @@
+.from{
+    margin-left: 30%;
+position: absolute;
+width: 40%;
+height: 70%;
+background-color: violet;
+justify-content: center;
+font-family: sans-serif;
+font-size: 10px;
+
+
+} 
+.back{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    height: 30px;
+    width: 90px;
+    background-color: cyan;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+
+
+} 

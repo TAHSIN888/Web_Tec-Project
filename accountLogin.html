@@ -1,0 +1,29 @@
+
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>my account</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h2 class="title">My account</h2>
+        <form action="accLoginCheck.php" method="post" class="form">
+            <div class="input-field">
+                <label for="accountNo" class="input-label">Account Number</label>
+                <input type="text" name="accountNo" id="accountNo" class="input" placeholder="Enter account number" required>
+            </div>
+            <div class="input-field">
+                <label for="pin" class="input-label">Pin</label>
+                <input type="password" name="pin" id="pin" class="input" placeholder="Enter your pin" required>
+            </div>
+            <button class="btn" name="submit">Submit</button>
+            
+        </form>
+    </div>
+</body>
+</html>

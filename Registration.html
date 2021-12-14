@@ -1,0 +1,156 @@
+<html>
+
+    <head>
+        <title>Registration Form</title>
+
+    <link rel="stylesheet" href="CSS/style4.css">
+
+<style >
+    .from{
+    margin-left: 30%;
+position: absolute;
+width: 40%;
+height: 70%;
+background-color: violet;
+justify-content: center;
+font-family: sans-serif;
+font-size: 10px;
+
+
+} 
+.back{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    height: 30px;
+    width: 90px;
+    background-color: cyan;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+
+
+} 
+</style>
+
+    </head>
+    <body>
+       <center> <h1>Open a agent banking account</h1></center>
+         <div class="from">
+        <form method="POST" action="accRegistration.php" enctype="multipart/form-data">
+       
+            <center>
+                <h1 style=text-align:center>Registration Form </h1>
+        
+              
+                    <table>
+                <tr>
+                    <td>
+                        Name:
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Name" name="username" value="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Phone Number:
+                    </td>
+                    <td>
+                        <input type="phone" placeholder="9867******">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email Id:
+                    </td>
+                    <td>
+                        <input type="email"  placeholder="example1@*8">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password:
+                    </td>
+                    <td>
+                        <input type="password"  placeholder="Password" name="password" value="">
+                    </td>
+                </tr>
+            <tr>
+                <td>
+                    Gender:
+                </td>
+                <td>
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Date of Birth:
+                </td>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+           
+            <tr>
+                <td>
+                    Education Qualification:
+                </td>
+                <td>
+                    <select>
+                        <option>Select Option</option>
+                        <option>10+2</option>
+                        <option>Graduation</option>
+                        <option>Postgraduation</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Address:
+                </td>
+                <td>
+                    <textarea rows="5" col="17" placeholder="Address"></textarea>
+                </td>
+            </tr>
+        <tr>
+            <td>
+          
+          
+               <a href="img.html">Image upload</a>
+              
+           
+            
+            </td>
+        </tr>
+
+<tr>
+                    <td>
+                        NID Number:
+                    </td>
+                    <td>
+                        <input type="Number" placeholder="">
+                    </td>
+                </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+            </table>
+       
+
+    </center>
+      
+         </form>
+          </div>
+          <div >       
+           <a class="back" href="home.php">Back</a>
+        </div>
+        </body>
+</html>

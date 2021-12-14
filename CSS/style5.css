@@ -1,0 +1,21 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: violet;
+}
+.container{
+padding: 10px;
+height: 30%;
+width: 30%;
+background-color: powderblue;
+
+
+}
+.input-field {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
